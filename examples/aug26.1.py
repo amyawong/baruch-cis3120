@@ -12,12 +12,10 @@ webbrowser.open('https://www.baruch.cuny.edu/')
 
 
 
-
 # EXAMPLE 2
 # .open_new(url)
 # - opens url in a new window of the default browser if possible; otherwise opens url in the only browser window
 webbrowser.open_new('https://www.nike.com/')
-
 
 
 
@@ -28,7 +26,6 @@ webbrowser.open_new_tab('https://www.yahoo.com/')
 
 
 
-
 # EXAMPLE 4
 # Build a basic Google Maps search tool by:
 # - getting input from the user
@@ -36,7 +33,6 @@ webbrowser.open_new_tab('https://www.yahoo.com/')
 # - open a browser to show the search results
 google = input('Enter a value to search via Google Maps: ')
 webbrowser.open_new_tab('https://www.google.com/maps?btnG=1&q=%s' % google)
-
 
 
 
