@@ -1,3 +1,4 @@
+# basic_selenium.py
 # 1. Import libraries
 # Import the webdriver library from selenium
 from selenium import webdriver
